@@ -158,5 +158,28 @@
     .about { flex-direction: column; }
     .about-images { width: 100%; height: 300px; }
 }
+/* Responsive Fix for All Devices */
+@media (max-width: 768px) {
+  body { overflow-x: hidden; }
+  header, nav, .navbar {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .hero, .container, .main-content {
+    width: 100% !important;
+    padding: 15px !important;
+  }
+  .hero h1 { font-size: 28px !important; }
+  .cards, .grid, .destinations {
+    grid-template-columns: 1fr !important;
+    display: grid;
+  }
+  img { max-width: 100%; height: auto; }
+}
+
+@media (max-width: 480px) {
+  .hero h1 { font-size: 22px !important; }
+  .btn, button { width: 100%; }
+}
 
     
