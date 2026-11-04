@@ -1,3 +1,71 @@
+/* Ayesha - Naya Premium Front Page - Bina purana code delete kiye */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f8fffe;
+}
+
+/* Navbar ko sahi karna - taake bullets khatam ho jayen */
+.navbar, nav, header {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 15px 5% !important;
+  background: rgba(255,255,255,0.9) !important;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar ul, nav ul, .nav-links {
+  display: flex !important;
+  list-style: none !important;
+  gap: 25px !important;
+  flex-direction: row !important;
+}
+.logo {
+  font-weight: 700;
+  font-size: 22px;
+  color: #0f2e26;
+}
+
+/* Hero - Explore Beyond Limits ko Dribbble jaisa banana */
+.hero, .hero-section, .main {
+  min-height: 88vh !important;
+  background: linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.25)), url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070') center/cover !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding: 40px 20px !important;
+  width: 100% !important;
+}
+.hero h1, .hero-section h1 {
+  font-size: 52px !important;
+  color: #12372A !important;
+  line-height: 1.1 !important;
+  margin-bottom: 10px !important;
+}
+.hero p, .hero h2 {
+  font-size: 20px !important;
+  color: #2f4f46 !important;
+  max-width: 600px;
+}
+
+/* Buttons */
+.btn, button, .plan-btn {
+  background: #1a6b3c !important;
+  color: white !important;
+  border: none !important;
+  padding: 13px 30px !important;
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  width: auto !important;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
