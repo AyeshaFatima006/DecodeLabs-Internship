@@ -1,4 +1,4 @@
-/* Ayesha - Naya Premium Front Page - Bina purana code delete kiye */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 body {
@@ -7,7 +7,7 @@ body {
   background: #f8fffe;
 }
 
-/* Navbar ko sahi karna - taake bullets khatam ho jayen */
+
 .navbar, nav, header {
   display: flex !important;
   flex-direction: row !important;
@@ -31,7 +31,7 @@ body {
   color: #0f2e26;
 }
 
-/* Hero - Explore Beyond Limits ko Dribbble jaisa banana */
+
 .hero, .hero-section, .main {
   min-height: 88vh !important;
   background: linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.25)), url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070') center/cover !important;
